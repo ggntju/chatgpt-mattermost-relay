@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chatgpt": "^4.2.0",
+    "express": "^4.18.2"
+  },
+  "name": "chatgpt-mattermost-relay",
+  "description": "A relay server between ChatGPT API and Mattermost webhooks",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggntju/chatgpt-mattermost-relay.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "mattermost",
+    "node"
+  ],
+  "author": "Guannan Guo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggntju/chatgpt-mattermost-relay/issues"
+  },
+  "homepage": "https://github.com/ggntju/chatgpt-mattermost-relay#readme"
+}
